@@ -13,17 +13,17 @@ a{
 
 
 .card{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: 1px solid beige ;
-    width: 500px;
-    justify-content: center;
     align-items: center;
     border-radius: 10px;
+    border: 1px solid beige ;
     box-shadow: 0 0 20px 10px rgb(243, 243, 227);
-    transition: transform 0.3s; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
+    text-align: center;
+    transition: transform 0.3s; 
+    width: 500px;
 }
 
 .card:hover{
